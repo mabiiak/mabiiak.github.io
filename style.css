@@ -1,28 +1,36 @@
-body{background-color:rgb(206, 132, 128); 
-    text-align: center;
-    padding:50px 200px 200x 50px  
+body{background-color:rgb(132, 172, 278); 
 }
 
-h1{font-family:fantasy;
-font-style: italic;
+h1{font-family:monospace;
+font-style:bold;
 }
 
-h2, h3{font-size: 25px;
-    font-family: fantasy;
-   
+h2, h3{font-family: monospace;
 }
 
 p{font-family: monospace;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 ul{text-align: left;
-
+    list-style: none;
+    font-family: monospace;
 }
+
 .list-type{font-size: 13px;
     text-decoration:line-through ;
 }
-.photo{border-radius: 150%;
+
+.foto{border-radius:150%;
 text-align: center;
+}
+
+.muralfoto{float: right;
+    margin-left: 500px;
+}
+
+.muralinfo{float: left;
+
+
 }
