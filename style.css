@@ -26,33 +26,3 @@ ul{text-align: left;
 .photo{border-radius: 150%;
 text-align: center;
 }
-
-.button{padding: 10px 30px;
-background-color:rgb(255,200,77);
-color:black;
-text-decoration: none;
-}
-
-.foto{float: right;
-    padding: 5px 5px;
-    background-color:rgb(255,200,77) ;
-    border-right: 300px;
-    display: inline-block;
-    text-align: center;
-}
-
-.sobre{float: left;
-    max-width: 50%;
-    line-height: 30px;
-    text-align: left;
-   border-left: 120px;
-   display: inline-block;
-   
-}
-
-.sumario{clear: both;
-    
-}
-
-.botao{clear: both
-}
