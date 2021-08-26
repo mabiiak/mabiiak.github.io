@@ -1,36 +1,93 @@
-body{background-color:rgb(132, 172, 278); 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+
+body{
+    background-color: cadetblue;
+    margin: 10px;
 }
 
-h1{font-family:monospace;
-font-style:bold;
+h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style:bold;
 }
 
-h2, h3{font-family: monospace;
-}
+h2, h3{
+    font-family: 'Open Sans Condensed', sans-serif;
+}   
 
-p{font-family: monospace;
+p{
+    font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 300;
-    font-size: 12px;
 }
 
-ul{text-align: left;
+ul{
+    text-align: left;
     list-style: none;
-    font-family: monospace;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.list-type{font-size: 13px;
+a{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+    
+.list-type{
+    font-size: 13px;
     text-decoration:line-through ;
 }
-
-.foto{border-radius:150%;
-text-align: center;
+    
+#mural{
+    display:block;
+    height: 725px;
+    width: 300px;
+    border: 1px solid black;
+    position: fixed;
+    margin-left: 20%;
+}
+#mural h1{
+    text-align: center;
 }
 
-.muralfoto{float: right;
-    margin-left: 500px;
+#mural h2{
+    text-align: center;
+    border: 1px solid black;
+}
+#mural p{
+    font-size: medium;
+    line-height: 25px;
+    margin: 10px;
+    text-align: center;
 }
 
-.muralinfo{float: left;
+#sumario{
+    display: inline-block;
+    margin-left:640px;
+    border: 1px solid black;
+    width: 640px;
+}
 
+#hab{
+    display: inline-block;
+    margin-left:640px;
+    margin-top: 15px;
+    border: 1px solid black;
+    width: 640px;
+}
 
+#hab h1{
+    margin-left: 25px;
+}
+
+#projetoum{
+    display: inline-block;
+    margin-left:640px;
+    margin-top: 15px;
+    border: 1px solid black;
+    width: 640px;
+}
+
+#projetoum h1{ 
+    margin-left: 25px;
+}
+
+#contato {
+    text-align: center;
 }
