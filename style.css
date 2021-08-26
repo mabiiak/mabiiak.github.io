@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
 
 body{
-    background-color: cadetblue;
+    background-color:rgb(105, 173,195);
     margin: 10px;
 }
 
@@ -27,6 +27,7 @@ ul{
 
 a{
     font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
 }
     
 .list-type{
@@ -41,20 +42,31 @@ a{
     border: 1px solid black;
     position: fixed;
     margin-left: 20%;
+    background-color:rgb(235,240,228, 0.5) ;
 }
 #mural h1{
     text-align: center;
+    background-color:rgb(105, 173,195);
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #mural h2{
     text-align: center;
     border: 1px solid black;
+    background-color:rgb(105, 173,195);
+    margin-top: 0px;
+}
+#mural img{
+    margin-top: 3px;
 }
 #mural p{
     font-size: medium;
     line-height: 25px;
     margin: 10px;
     text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 #sumario{
@@ -62,17 +74,23 @@ a{
     margin-left:640px;
     border: 1px solid black;
     width: 640px;
+    background-color:rgb(235,240,228, 0.5);
+    position: fixed;
+}
+#sumario a{
+    margin-left: 40px;
 }
 
 #hab{
     display: inline-block;
     margin-left:640px;
-    margin-top: 15px;
+    margin-top: 40px;
     border: 1px solid black;
     width: 640px;
+    background-color:rgb(235,240,228, 0.5) ;
 }
 
-#hab h1{
+#hab h1, p{
     margin-left: 25px;
 }
 
@@ -82,12 +100,28 @@ a{
     margin-top: 15px;
     border: 1px solid black;
     width: 640px;
+    background-color:rgb(235,240,228, 0.5) ;
 }
 
-#projetoum h1{ 
+#projetoum h1, p{ 
     margin-left: 25px;
 }
 
-#contato {
+#contato{
     text-align: center;
 }
+.data{
+    font-size: 12px;
+}
+/* #projetodois{
+    display: inline-block;
+    margin-left:640px;
+    margin-top: 15px;
+    border: 1px solid black;
+    width: 640px;
+    background-color:rgb(235,240,228, 0.5) ;
+}
+
+#projetodois h1, p{ 
+    margin-left: 25px;
+} */
