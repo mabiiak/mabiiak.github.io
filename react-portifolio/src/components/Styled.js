@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const HeaderStyled = styled.header `
   background-color: #B0DBDB;
-  display: flexbox;
+  display: flex;
   justify-content: space-between;
   padding: 9px;
   
@@ -11,11 +11,29 @@ export const HeaderStyled = styled.header `
   }
 
   div {
-    display: flexbox;
+    display: flex;
     margin-top: 5px;
     margin-right: 30px;
     p {
       margin: 10px;
     }
+  }
+`
+export const AboutStyled = styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+
+  img {
+    border-radius: 50%;
+    height: 200px;
+    margin-top: 35px;
+    width: 200px;
+  }
+  
+  div {
+    margin-left: 30px;
   }
 `
