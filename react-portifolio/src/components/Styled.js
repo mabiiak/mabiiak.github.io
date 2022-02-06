@@ -37,3 +37,28 @@ export const AboutStyled = styled.div`
     margin-left: 30px;
   }
 `
+export const Project = styled.div`
+  background-color: #B0DBDB;
+  
+  .car {
+    margin-left: 30px;
+    
+    div {
+      display: flex;
+
+      img {
+        width: 60%;
+      }
+
+      p {
+        margin-left: 15px;
+      }
+
+      .legend {
+        background-color: white;
+        color: black;
+        width: 50%;
+      }
+    }
+  }
+`
