@@ -11,22 +11,18 @@ export default function Projects() {
       <Carousel className='car'>
         <div>
           <img src={pato} alt="pato" />
-          <p
-            className="legend"
-            onClick={ () => console.log('pato')}
-          >
-            Projeto...
-          </p>
-          <p>Sobre</p>
+          <div className="legenda">
+            <h3>Nome</h3>
+            <p>Descrição</p>
+            <p>Data</p>
+          </div>
         </div>
         <div>
           <img src={pato} alt="pato"/>
-          <p className="legend">Legend 2</p>
           <p>Sobre2</p>
         </div>
         <div>
           <img src={pato} alt="pato"/>
-          <p className="legend">Legend 3</p>
           <p>Sobre3</p>
         </div>
       </Carousel>
