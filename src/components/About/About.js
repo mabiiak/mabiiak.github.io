@@ -11,7 +11,12 @@ export default function About() {
       />
       <div>
         <h1>Sobre mim:</h1>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing."</p>
+        <p>
+          Meu nome é Mabiane, moro em Curitiba.
+          Já trabalhei com atendimento ao cliente e vendas, e com isso descobri que eu gosto de ajudar outras pessoas. <br/><br/>
+
+          Atualmente sou Desenvolvedora Fron-End e estudo Desenvolvimento Web na Trybe.
+        </p>
       </div>
       
     </AboutStyled>
