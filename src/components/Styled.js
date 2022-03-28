@@ -31,18 +31,14 @@ export const HeaderStyled = styled.header `
       font-size: 25px;
       margin-top: 12px;
       text-align: left;
-
     }
-
     p {
       margin-left: 10px;
     }
-
     div {
       flex-direction: column;
       margin-right: 0;
       margin-top: 11px;
-
       p {
         margin: 5px;
         margin-right: 10px;
@@ -72,16 +68,21 @@ export const AboutStyled = styled.div`
     margin-left: 30px;
     margin-right: 30px;
   }
-
-  @media only screen and (max-width: 450px) {
+ 
+  @media only screen and (max-width: 500px) {
     flex-direction: column;
   
     img {
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-  }
+      margin-bottom: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+    }
+    div {
+      margin-bottom: 30px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
   }
 `
 export const Project = styled.div`
