@@ -32,9 +32,15 @@ export default function Projects() {
             <a href="https://github.com/mabiiak/trybewallet">Link do repositório</a><br/>
             <a href="https://mabiiak.github.io/trybewallet/">Link do projeto</a></p>
         </div>
-        <div>
+        <div className="legenda">
+          <h3>Trybetunes</h3>
           <img src={trybetunes} alt="trybetunes"/>
-          <p>Sobre3</p>
+          <p>
+            Projeto feito durante o curso de desenvolvimento Web na Trybe, no módulo de Front-End. Utilizando heact Redux e css.<br/><br/> Ele tinha como objetivo criar uma aplicação que busque musicas por artistas/banda e seja capaz de armazenar as favoritas do usuario.<br/><br/>
+            <a href="https://github.com/mabiiak/trybetunes">Link do repositório</a><br/>
+            <a href="https://mabiiak.github.io/trybetunes/">Link do projeto</a>
+            <br/><br/>
+          </p>
         </div>
       </Carousel>
     </Project>
