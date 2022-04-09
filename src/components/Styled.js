@@ -22,6 +22,11 @@ export const AboutStyled = styled.div`
 
   .sub-titulo { text-align: end }
   .sub-titulo h1 { font-size: 38px }
+  .sub-titulo img {
+    height: 50px;
+    margin-left: 10px;
+    width: 50px;
+  }
 
   img {
     border-radius: 10%;
