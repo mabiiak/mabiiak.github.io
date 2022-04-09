@@ -1,48 +1,35 @@
 import styled from 'styled-components'
 
 const color = '#8dc6d9' ;
-const principalColor = '#0a445e';
-const alignInitial = {
-  'margin-left': '30px',
-}
+const principalColor = '#00000';
 
 export const HeaderStyled = styled.header `
   color: ${principalColor};
   display: flex;
-  margin-bottom:20px;
+  margin-bottom:60px;
   margin-top:20px;
 
   p {
     font-size: 18px;
-    margin-left: 30px;
+    margin-right: 30px;
   }
 `
 export const AboutStyled = styled.div`
-  background-color: ${color};
+  .sub-titulo {
+    /* margin-top: 0%; */
+    text-align: end
+  }
+
   color: white;
   display: flex;
   justify-content: space-between;
-  padding: 10px;
-  
-  .azul {
-    /* background-color: ${principalColor};
-    padding: 100px;
-    border: solid 5px green; */
-    line-height: 0;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-color: #000 #15426B #d3d3d3 #d3d3d3;
-    border-width: 0px 140px 100px 50px;
-  }
 
   img {
-    border-radius: 50%;
-    height: 200px;
+    border-radius: 10%;
+    height: 250px;
     margin-bottom: 30px;
-    margin-left: 30px;
-    margin-top: 35px;
-    width: 200px;
+    margin-right: 35px;
+    width: 250px;
   }
   
   div {
@@ -100,11 +87,9 @@ export const FormStyles = styled.div`
   h1 {
     padding-top: 30px;
     text-align: left;
-    ${alignInitial}
   }
 
   form {
-    ${alignInitial}
     display: flex;
     flex-direction: column;
     width: 50%;
