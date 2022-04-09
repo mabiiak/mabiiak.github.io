@@ -12,7 +12,10 @@ export const HeaderStyled = styled.header `
   margin-bottom:20px;
   margin-top:20px;
 
-  p { margin-left: 30px }
+  p {
+    font-size: 18px;
+    margin-left: 30px;
+  }
 `
 export const AboutStyled = styled.div`
   background-color: ${color};
@@ -21,6 +24,18 @@ export const AboutStyled = styled.div`
   justify-content: space-between;
   padding: 10px;
   
+  .azul {
+    /* background-color: ${principalColor};
+    padding: 100px;
+    border: solid 5px green; */
+    line-height: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: #000 #15426B #d3d3d3 #d3d3d3;
+    border-width: 0px 140px 100px 50px;
+  }
+
   img {
     border-radius: 50%;
     height: 200px;

@@ -5,6 +5,9 @@ import { AboutStyled } from '../Styled'
 export default function About() {
   return (
     <AboutStyled>
+      <div className='azul'>
+        <p> a </p>
+      </div>
       <img
         alt="Mabiane"
         src={ icone }
