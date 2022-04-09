@@ -3,10 +3,13 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import { Project }  from '../Styled';
 
-import pato from '../../images/pato.jpeg';
 import starWars from '../../images/starwarsPlanets.png';
 import wallet from '../../images/trybewalet.png';
 import trybetunes from '../../images/trybetunes.png';
+
+// Procurar outro carrossel ou criar paginas separadas os projetos
+// Inserir novamente o envio de emails
+// inserir botões com contatos
 
 export default function Projects() {
   return (

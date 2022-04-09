@@ -1,51 +1,18 @@
 import styled from 'styled-components'
 
 const color = '#8dc6d9' ;
+const principalColor = '#0a445e';
 const alignInitial = {
   'margin-left': '30px',
 }
 
 export const HeaderStyled = styled.header `
-  background-color: ${color};
-  color: white;
+  color: ${principalColor};
   display: flex;
-  justify-content: space-between;
-  padding: 9px;
-  
-  p {
-    margin-left: 30px
-  }
+  margin-bottom:20px;
+  margin-top:20px;
 
-  div {
-    display: flex;
-    margin-top: 5px;
-    margin-right: 30px;
-
-    p {
-      margin: 10px;
-    }
-  }
-
-  @media only screen and (max-width: 450px) {
-    .name {
-      font-size: 25px;
-      margin-top: 12px;
-      text-align: left;
-    }
-    p {
-      margin-left: 10px;
-    }
-    div {
-      flex-direction: column;
-      margin-right: 0;
-      margin-top: 11px;
-      p {
-        margin: 5px;
-        margin-right: 10px;
-        text-align: right;
-      }
-    }
-  }
+  p { margin-left: 30px }
 `
 export const AboutStyled = styled.div`
   background-color: ${color};
