@@ -1,6 +1,6 @@
 import React from 'react';
 import icone from '../../images/icone.png'
-import { AboutStyled } from '../Styled'
+import { AboutStyled, TextAbout } from '../Styled'
 import linkedin  from '../../images/linkedin-logo.png'
 import github from '../../images/github-logo.png'
 
@@ -24,7 +24,7 @@ export default function About() {
           </a>
         </div>
       </AboutStyled>
-      <div>
+      <TextAbout>
         <h2>Sobre mim</h2>
         <p>
             Meu nome é Mabiane, moro em Curitiba.
@@ -32,7 +32,7 @@ export default function About() {
 
             Atualmente sou Desenvolvedora Fron-End e estudo Desenvolvimento Web na Trybe.
           </p>
-      </div>
+      </TextAbout>
     </div>
   )
 }

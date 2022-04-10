@@ -70,12 +70,20 @@ export const AboutStyled = styled.div`
     }
   }
 `
+export const TextAbout = styled.div`
+  margin-bottom: 60px;
+  h2 { color: ${principalColor}}
+`
 export const Project = styled.div`
-  /* align-items: center; */
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+/* align-items: center; */
+  h2 { color: ${principalColor}}
+
+  div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 `
 export const CardProject = styled.div`
   align-items: center;
