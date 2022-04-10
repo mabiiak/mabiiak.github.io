@@ -1,4 +1,7 @@
 import styled from 'styled-components'
+// import starWars from '../images/starwarsPlanets.png';
+// import wallet from '../images/trybewalet.png';
+import trybetunes from '../images/trybetunes.png';
 const principalColor = '#06455d';
 
 export const HeaderStyled = styled.header `
@@ -68,26 +71,43 @@ export const AboutStyled = styled.div`
   }
 `
 export const Project = styled.div`
-  h1 {
-    margin-left: 30px;
-    text-align: left;
+  /* align-items: center; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+`
+export const CardProject = styled.div`
+  align-items: center;
+  display: flex;
+  background-image:  url(${trybetunes});
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 5px 15px 10px grey ;
+  flex-direction: column;
+  height: 300px;
+  justify-content: end;
+  margin-bottom: 60px;
+  margin-right: 20px;
+  text-align: center;
+  width: 240px;
+
+  button {
+    border-radius: 10px ;
+    height: 50px;
+    width: 50px;
   }
 
-  .car {
-    margin-left: 30px;
-    margin-right: 30px;
-    
-    div {
-      display: flex;
-
-      img {
-        width: 50%;
-      }
-
-      .legenda {
-        flex-direction: column;
-        margin-left: 15px;
-      }
-    }
+  div {
+    background-color: white;
+    border-radius: 5px;
+    line-height: 10px;
+    width: 240px;
+  }
+`
+export const Botao = styled.button`
+  display: none;
+  ${CardProject}:hover & {
+    display: block;
   }
 `
