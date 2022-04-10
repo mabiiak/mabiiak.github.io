@@ -4,8 +4,8 @@ import { HeaderStyled } from '../Styled';
 export default function Header() {
   return (
     <HeaderStyled>
-      <p> Sobre </p>
-      <p> Projetos </p>
+      <h3> Sobre </h3>
+      <h3> Projetos </h3>
     </HeaderStyled>
   );
 }
