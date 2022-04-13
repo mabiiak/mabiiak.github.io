@@ -49,7 +49,7 @@ export const AboutStyled = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  
+    
     .sub-titulo {
       margin-left: 20px;
       margin-right: 20px;
@@ -79,39 +79,59 @@ export const Project = styled.div`
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
   }
+  justify-content: space-between;
 `
 export const Card = styled.div`
   align-items: end;
   display: flex;
+  background-color:white;
   border-radius: 10px;
-  box-shadow: -5px 15px 10px grey ;
-  flex-direction: column;
-  height: 300px;
+  box-shadow: -5px 15px 5px grey ;
+  flex-direction: row;
+  height: 320px;
   margin-bottom: 60px;
   margin-right: 20px;
-  width: 240px;
+  padding-bottom:5px;
+  width: 300px;
 
   div {
+    align-items: center;
     background-color: white;
+    flex-direction: column;
     border-radius: 5px;
+    display: block;
+    text-align: center;
     line-height: 10px;
-    width: 240px;
+    width: 300px;
   }
+
+  span {
+    display:flex;
+    background-color: white;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:5px;
+  }
+
 `
+
 export const Link = styled.a`
-  display: none;
-  ${Card}:hover & {
+    align-items: center;
     background-color: ${principalColor};
-    border-radius: 50px;
-    box-shadow: -2px 5px 2px grey;
+    border-radius: 5px;
     color: white;
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 70px;
+    margin-left:10px;
+    margin-right: 10px;
+    height: 40px;
     text-decoration:none;
-    width: 70px;
-  }
+    width: 80px;
+`
+export const Image = styled.img`
+  border-radius: 10px 10px 0px 0px;
+  height: 200px;
+  width: 300px;
+
 `

@@ -1,8 +1,12 @@
+import trybewallet from '../images/projects/trybewalet.png';
+import trybetunes from '../images/projects/trybetunes.png';
+import starwars from '../images/projects/starwarsPlanets.png';
+
 const projects = [
   {
-    name: 'Star Wars Search planets',
+    name: 'StarWars Search',
     language:'React, Javascript, styled-components',
-    img:'../images/projects/starwarsPlanets.png',
+    img: starwars,
     links: {
       repo: 'https://github.com/mabiiak/starwars-planets',
       view: 'mabiiak.github.io/starwars-planets/' 
@@ -12,7 +16,7 @@ const projects = [
   {
     name: 'TrybeWallet',
     language:'React, Javascript, css',
-    img:'../images/projects/trybewalet.png',
+    img: trybewallet,
     links: {
       repo: 'https://github.com/mabiiak/trybewallet',
       view: 'mabiiak.github.io/trybewallet/' 
@@ -22,7 +26,7 @@ const projects = [
   {
     name: 'TrybeTunes',
     language:'React, Javascript, css',
-    img:'../images/projects/trybetunes.png',
+    img: trybetunes,
     links: {
       repo: 'https://github.com/mabiiak/trybetunes',
       view: 'mabiiak.github.io/trybetunes/' 
