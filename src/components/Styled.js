@@ -1,7 +1,5 @@
 import styled from 'styled-components'
-// import starWars from '../images/starwarsPlanets.png';
-// import wallet from '../images/trybewalet.png';
-import trybetunes from '../images/trybetunes.png';
+import trybetunes from '../images/projects/trybetunes.png';
 const principalColor = '#06455d';
 
 export const HeaderStyled = styled.header `

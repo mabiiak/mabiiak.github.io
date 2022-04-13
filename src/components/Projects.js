@@ -1,6 +1,5 @@
 import React from 'react';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Project, CardProject, Botao }  from '../Styled';
+import { Project, CardProject, Botao }  from './Styled';
 
 export default function Projects() {
   return (
