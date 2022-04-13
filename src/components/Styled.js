@@ -83,7 +83,7 @@ export const Project = styled.div`
     justify-content: space-between;
   }
 `
-export const CardProject = styled.div`
+export const Card = styled.div`
   align-items: center;
   display: flex;
   background-image:  url(${trybetunes});
@@ -113,7 +113,7 @@ export const CardProject = styled.div`
 `
 export const Botao = styled.button`
   display: none;
-  ${CardProject}:hover & {
+  ${Card}:hover & {
     display: block;
   }
 `
