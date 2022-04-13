@@ -9,7 +9,7 @@ const projects = [
     img: starwars,
     links: {
       repo: 'https://github.com/mabiiak/starwars-planets',
-      view: 'mabiiak.github.io/starwars-planets/' 
+      view: 'https://mabiiak.github.io/starwars-planets/' 
     },
   },
 
@@ -19,7 +19,7 @@ const projects = [
     img: trybewallet,
     links: {
       repo: 'https://github.com/mabiiak/trybewallet',
-      view: 'mabiiak.github.io/trybewallet/' 
+      view: 'https://mabiiak.github.io/trybewallet/' 
     },
   },
 
@@ -29,7 +29,7 @@ const projects = [
     img: trybetunes,
     links: {
       repo: 'https://github.com/mabiiak/trybetunes',
-      view: 'mabiiak.github.io/trybetunes/' 
+      view: 'https://mabiiak.github.io/trybetunes/' 
     },
   },
 ];

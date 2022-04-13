@@ -20,8 +20,8 @@ export default function CardProject() {
                   <p>{ project.language }</p>
                 </div>
                 <span>
-                  <Link href={ project.links.view }>Ver</Link>
-                  <Link href={ project.links.repo }> GitHub</Link>
+                  <Link href={ project.links.view } target="_blank" >Ver</Link>
+                  <Link href={ project.links.repo } target="_blank"> GitHub</Link>
                 </span>
             </Card>
           )
