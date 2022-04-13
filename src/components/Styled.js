@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import trybetunes from '../images/projects/trybetunes.png';
 const principalColor = '#06455d';
 
 export const HeaderStyled = styled.header `
@@ -84,25 +83,15 @@ export const Project = styled.div`
   }
 `
 export const Card = styled.div`
-  align-items: center;
+  align-items: end;
   display: flex;
-  background-image:  url(${trybetunes});
-  background-size: cover;
   border-radius: 10px;
-  box-shadow: 5px 15px 10px grey ;
+  box-shadow: -5px 15px 10px grey ;
   flex-direction: column;
   height: 300px;
-  justify-content: end;
   margin-bottom: 60px;
   margin-right: 20px;
-  text-align: center;
   width: 240px;
-
-  button {
-    border-radius: 10px ;
-    height: 50px;
-    width: 50px;
-  }
 
   div {
     background-color: white;
@@ -111,9 +100,18 @@ export const Card = styled.div`
     width: 240px;
   }
 `
-export const Botao = styled.button`
+export const Link = styled.a`
   display: none;
   ${Card}:hover & {
-    display: block;
+    background-color: ${principalColor};
+    border-radius: 50px;
+    box-shadow: -2px 5px 2px grey;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    text-decoration:none;
+    width: 70px;
   }
 `
