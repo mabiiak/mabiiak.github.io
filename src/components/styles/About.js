@@ -52,4 +52,8 @@ export const AboutStyled = styled.div`
 export const TextAbout = styled.div`
   margin-bottom: 60px;
   h2 { color: ${principalColor}}
+
+  @media only screen and (max-width: 980px) {
+    h2 { color: white }
+  }
 `
