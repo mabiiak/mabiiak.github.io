@@ -1,6 +1,6 @@
 import React from 'react';
 import icone from '../images/icone.png'
-import { AboutStyled, TextAbout } from './Styled'
+import { AboutStyled, TextAbout } from './styles/About'
 import linkedin  from '../images/social/linkedin.png'
 import github from '../images/social/github.png'
 

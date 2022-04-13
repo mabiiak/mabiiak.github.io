@@ -1,5 +1,5 @@
 import React from 'react';
-import { Project }  from './Styled';
+import { Project }  from './styles/Projects';
 import CardProject from './CardProject';
 
 export default function Projects() {

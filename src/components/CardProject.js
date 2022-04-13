@@ -1,5 +1,6 @@
 import React from 'react';
-import { Card, Link, Image }  from './Styled';
+import { Card, Link, Image }  from './styles/Projects';
+
 import projects from '../services/projects'; 
 
 export default function CardProject() {
