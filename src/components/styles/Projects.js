@@ -29,7 +29,7 @@ export const Card = styled.div`
   border-radius: 10px;
   box-shadow: -5px 15px 5px grey ;
   flex-direction: row;
-  height: 320px;
+  height: 290px;
   margin-bottom: 60px;
   margin-right: 20px;
   padding-bottom:5px;
