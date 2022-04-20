@@ -82,7 +82,7 @@ export const Link = styled.a`
 `
 export const Image = styled.img`
   border-radius: 10px 10px 0px 0px;
-  height: 200px;
+  height: 165px;
   width: 297px;
 
   @media only screen and (max-width: 1050px) {

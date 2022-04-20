@@ -1,4 +1,4 @@
-import trybewallet from '../images/projects/trybewalet.png';
+import trybewallet from '../images/projects/trybewallet.jpg';
 import trybetunes from '../images/projects/trybetunes.png';
 import starwars from '../images/projects/starwarsPlanets.png';
 
