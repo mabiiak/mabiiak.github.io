@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.05d593fd.css",
-    "main.js": "/static/js/main.2e3d2579.js",
+    "main.js": "/static/js/main.fac0da61.js",
     "static/media/starwarsPlanets.png": "/static/media/starwarsPlanets.535d2465bef648a22ff2.png",
     "static/media/trybetunes.png": "/static/media/trybetunes.6e6ad9fd2b9fc75200c7.png",
     "static/media/icone.png": "/static/media/icone.8a2205f03d486391d48e.png",
@@ -9,10 +9,10 @@
     "static/media/linkedin.png": "/static/media/linkedin.712c4ce3d6be06644d11.png",
     "index.html": "/index.html",
     "main.05d593fd.css.map": "/static/css/main.05d593fd.css.map",
-    "main.2e3d2579.js.map": "/static/js/main.2e3d2579.js.map"
+    "main.fac0da61.js.map": "/static/js/main.fac0da61.js.map"
   },
   "entrypoints": [
     "static/css/main.05d593fd.css",
-    "static/js/main.2e3d2579.js"
+    "static/js/main.fac0da61.js"
   ]
 }
